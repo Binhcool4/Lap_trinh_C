@@ -1,12 +1,15 @@
 #include<stdio.h>
 
 int main() {
+	//Tao bien
     int number;
     int sum = 0;
-
+    
+    //Nhap so nguyen
     printf("Nhap vao mot so nguyen 4 chu so: ");
     scanf("%d", &number);
-
+    
+    
     int thousand = number / 1000;  
     sum = sum + thousand;  
 
@@ -21,5 +24,6 @@ int main() {
 
     printf("Tong cac chu so cua so da nhap la: %d\n", sum);
 
+    return 0;
 }
 
