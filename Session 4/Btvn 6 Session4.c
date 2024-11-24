@@ -12,26 +12,27 @@ int main(){
 	int SoDien;
 	SoDien = chisoMoi - chisoCu;
 	
+	double cost;
+	
 	//Tao dieu kien de kiem tra so dien
-	if(SoDien < 0){
-		printf("Chi so ban ghi khong hop le");
+	if(SoDien < 50){
+		cost = SoDien * 10000;
 		
-	}else if(SoDien >= 0 && SoDien < 50){
-		printf("Gia dien ban phai tra la 10.000d");
+	}else if(SoDien < 100){
+		cost = SoDien * 15000;
 		
-	}else if(SoDien >= 50 && SoDien < 100){
-		printf("Gia dien ban phai tra la 15.000d");
+	}else if(SoDien < 150){
+		cost = SoDien * 20000;
 		
-	}else if(SoDien >= 100 && SoDien < 150){
-		printf("Gia dien ban phai tra la 20.000d");
-		
-	}else if(SoDien >= 150 && SoDien < 200){
-		printf("Gia dien ban phai tra la 25.000d");
-		
+	}else if(SoDien < 200){
+		cost = SoDien * 25000;
+
+			
 	}else{
-		printf("Gia dien ban phai tra la 30.000d");
+		cost = SoDien * 30000;
 		
 	}
+	printf("Tong tien dien: %.0f VND", cost);
 
 	
 	
