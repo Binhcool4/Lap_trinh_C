@@ -6,7 +6,7 @@ int main(){
 	scanf("%d", &year);
 	
 	//Tao dieu kien de kiem tra co phai nam nhuan khong
-	if(year % 4 == 0){
+	if(year % 4 == 0 && year % 100 != 0 || year % 400 == 0){
 		printf("Day la nam nhuan !");
 		
 	}else{
