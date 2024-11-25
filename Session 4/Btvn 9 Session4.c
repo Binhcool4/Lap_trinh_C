@@ -1,8 +1,7 @@
 #include <stdio.h>
 
-// Ham kiem tra ngay thang nam hop ly khong
 int isValidDate(int day, int month, int year) {
-    if (month < 1 || month > 12) return 0;  // Kiem tra thang hop ly
+    if (month < 1 || month > 12) return 0;  
 
     int maxDay;
 
@@ -25,9 +24,11 @@ int main() {
     int day;
     printf("Nhap ngay: ");
     scanf("%d", &day);
+    
     int month;
     printf("Nhap thang: ");
     scanf("%d", &month);
+    
     int year;
     printf("Nhap nam: ");
     scanf("%d", &year);
