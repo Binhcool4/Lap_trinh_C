@@ -5,7 +5,7 @@ int main(){
 	printf("Nhap so nguyen duong b : ");
 	scanf("%d", &b);
 	
-	if(b < 0){
+	if(b <= 0 || b >10){
 		printf("So nguyen khong hop le !");
 	}
 	
@@ -13,10 +13,10 @@ int main(){
 	do{
 		int total;
 	    total = i * b;
-		printf("Tong cua hai so la : %d \n", total);
+		printf("%d * %d = %d \n", b, 1, total);
 		i++;
 		
-	}while(i<11);
+	}while(i<=10);
 	
 	return 0;
 }
