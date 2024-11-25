@@ -33,15 +33,12 @@ int main() {
                 printf("Tich cua %.2f và %.2f là: %.2f\n", num1, num2, num1 * num2);
                 break;
             case 4:
-                if (num2 != 0) {
-                    printf("Thuong cua %.2f và %.2f là: %.2f\n", num1, num2, num1 / num2);
-                } else {
-                    printf("Loi: Khong the chia cho 0!\n");
-                }
+                printf("Thuong cua %.2f và %.2f là: %.2f\n", num1, num2, num1 / num2);
                 break;
             case 5:
                 printf("Thoat chuong trinh.\n");
                 return 0;
+                
             default:
                 printf("Lua chon khong hop ly. Vui long chon lai.\n");
         }
