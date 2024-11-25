@@ -8,7 +8,7 @@ int main() {
         printf("Bang cuu chuong %d:\n", i);
         
         for ( b = 1; b <= 10; b++) {
-        	int total;
+            int total;
     	    total = i * b;
             printf("%d x %d = %d\n", i, b, total);
         }
