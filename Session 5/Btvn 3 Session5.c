@@ -5,8 +5,7 @@ int main(){
 	printf("Nhap so nguyen duong b : ");
 	scanf("%d", &b);
 	
-	
-	
+	//Vong lap
 	do{
 		int total;
 	    total = i + b;
