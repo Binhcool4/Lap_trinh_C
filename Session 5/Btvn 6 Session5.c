@@ -5,7 +5,7 @@ int main() {
     float num2;
     int choice;
 
-    do {
+    do{
         printf("Nhap so thu nhat : ");
         scanf("%f", &num1);
         printf("Nhap so thu hai : ");
@@ -24,16 +24,16 @@ int main() {
         
         switch (choice) {
             case 1:
-                printf("Tong cua %.2f v‡ %.2f l‡: %.2f\n", num1, num2, num1 + num2);
+                printf("Tong cua %.2f v≈ï %.2f l≈ï: %.2f\n", num1, num2, num1 + num2);
                 break;
             case 2:
-                printf("Hieu cua %.2f v‡ %.2f l‡: %.2f\n", num1, num2, num1 - num2);
+                printf("Hieu cua %.2f v≈ï %.2f l≈ï: %.2f\n", num1, num2, num1 - num2);
                 break;
             case 3:
-                printf("Tich cua %.2f v‡ %.2f l‡: %.2f\n", num1, num2, num1 * num2);
+                printf("Tich cua %.2f v≈ï %.2f l≈ï: %.2f\n", num1, num2, num1 * num2);
                 break;
             case 4:
-                printf("Thuong cua %.2f v‡ %.2f l‡: %.2f\n", num1, num2, num1 / num2);
+                printf("Thuong cua %.2f v≈ï %.2f l≈ï: %.2f\n", num1, num2, num1 / num2);
                 break;
             case 5:
                 printf("Thoat chuong trinh.\n");
