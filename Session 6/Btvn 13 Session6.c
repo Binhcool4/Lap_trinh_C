@@ -2,7 +2,7 @@
 
 int main(){
     int day;
-	int month; 
+    int month; 
 
     printf("Nhap ngay sinh cua ban: ");
     scanf("%d", &day);
@@ -47,7 +47,7 @@ int main(){
         printf("Cung hoang dao cua ban la: Ma Ket");
         
     }else{
-        printf("Du lieu khong hop le");
+        printf("Ngay, thang khong hop le");
     }
    return 0; 
 }
