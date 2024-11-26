@@ -1,27 +1,37 @@
-#include <stdio.h>
-
-int main() {
-    int numbers[5]; 
-    int sum = 0; 
+#include<stdio.h>
+int main(){
+    int a, b, c, d, e;
     int i;
-
+    int sum = 0;  
     
-    printf("Nhap vao 5 so nguyen:\n");
-    for(i = 0; i < 5; i++) {
-        printf("So thu %d: ", i + 1);
-        scanf("%d", &numbers[i]);
+    printf("Moi ban nhap vao so a:");
+    scanf("%d", &a); 
+    printf("Moi ban nhap vao so b:");
+    scanf("%d", &b); 
+    printf("Moi ban nhap vao so c:");
+    scanf("%d", &c); 
+    printf("Moi ban nhap vao so d:");
+    scanf("%d", &d); 
+    printf("Moi ban nhap vao so e:");
+    scanf("%d", &e);
+
+    if(a % 2 != 0){  
+        sum += a; 
+    }
+    if(b % 2 != 0){  
+        sum += b; 
+    }
+    if(c % 2 != 0){  
+        sum += c;
+    }
+    if(d % 2 != 0){  
+        sum += d; 
+    }
+    if(e % 2 != 0){  
+        sum += e; 
     }
 
-    
-    for(i = 0; i < 5; i++) {
-        if(numbers[i] % 2 != 0) { 
-            sum += numbers[i];
-        }
-    }
-
-    
-    printf("Tong các so le là: %d\n", sum);
-
-    return 0;
+    printf("Tong cua cac so le la %d", sum); 
+    return 0; 
 }
 
