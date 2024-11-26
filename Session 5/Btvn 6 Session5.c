@@ -5,7 +5,7 @@ int main() {
     float num2;
     int choice;
 
-    while (1) {
+    do {
         printf("Nhap so thu nhat : ");
         scanf("%f", &num1);
         printf("Nhap so thu hai : ");
@@ -37,7 +37,7 @@ int main() {
                 break;
             case 5:
                 printf("Thoat chuong trinh.\n");
-                return 0;
+                break;
                 
             default:
                 printf("Lua chon khong hop ly. Vui long chon lai.\n");
@@ -45,7 +45,7 @@ int main() {
 
         //Dung nay de nhin de hon
         printf("\n");
-    }
+    }while (choice != 5);
 
     return 0;
 }
