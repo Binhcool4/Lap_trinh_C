@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
 	int a,b,c,d,e;
-	int even; //Chan
-	int odd; //Le
+	int even = 0; //Chan
+	int odd = 0; //Le
 	
 	printf("Moi ban nhap thu nhat : ");
 	scanf("%d", &a);
